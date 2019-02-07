@@ -7,7 +7,7 @@
     <packaging>pom</packaging>
     <name>gameoflife</name>
     <url>https://github.com/wakaleo/game-of-life</url>
-    <sonar.host.url>http://52.66.94.67:9000</sonar.host.url>
+
     <properties>
         <build.number>SNAPSHOT</build.number>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -184,7 +184,7 @@
                 <scope>test</scope>
             </dependency>
         </dependencies>
-        
+       <sonar.host.url>http://52.66.94.67:9000</sonar.host.url>     
 <dependencies>
     <dependency>
         <groupId>org.codehaus.mojo</groupId>
